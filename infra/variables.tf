@@ -17,7 +17,7 @@ variable "environment" {
 variable "instance_type" {
   description = "Experimento 1: t3.micro -> t3.small"
   type        = string
-  default     = "t3.micro"
+  default     = "t3.small"
 }
 
 variable "log_retention_days" {
