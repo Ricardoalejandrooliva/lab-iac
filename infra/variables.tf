@@ -23,7 +23,7 @@ variable "instance_type" {
 variable "log_retention_days" {
   description = "Experimento 2: 7 -> 14"
   type        = number
-  default     = 7
+  default     = 14
 }
 
 variable "bucket_name" {
