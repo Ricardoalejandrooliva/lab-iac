@@ -65,7 +65,7 @@ data "aws_iam_policy_document" "trust" {
     condition {
       test     = "StringEquals"
       variable = "token.actions.githubusercontent.com:sub"
-      values   = ["repo:${var.github_owner}/${var.github_repo}:ref:refs/heads/${var.github_branch}"]
+      values   = ["repo:${var.github_owner}@108159429/${var.github_repo}@1444824881:ref:refs/heads/${var.github_branch}"]
     }
   }
 }
