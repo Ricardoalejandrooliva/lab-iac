@@ -1,0 +1,8 @@
+# Copiar a terraform.tfvars (NO se sube a git) y completar
+aws_region           = "us-east-1"
+state_bucket_name    = "lab-iac-tfstate-TUAPELLIDO-2026"
+github_owner         = "TU_USUARIO_GITHUB"
+github_repo          = "TU_REPO"
+github_branch        = "develop"
+role_name            = "lab-iac-github-actions"
+create_oidc_provider = false # false si en IAM > Identity providers ya existe token.actions.githubusercontent.com
