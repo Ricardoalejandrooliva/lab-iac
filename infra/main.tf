@@ -80,7 +80,7 @@ resource "aws_instance" "web" {
     encrypted   = true
   }
 
-  user_data = <<-EOT
+  user_data                   = <<-EOT
     #!/bin/bash
     dnf install -y nginx
     echo "<h1>LAB IaC - ${local.name_prefix}</h1><p>Desplegado con Terraform + GitHub Actions</p>" > /usr/share/nginx/html/index.html
